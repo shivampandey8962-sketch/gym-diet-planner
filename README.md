@@ -174,3 +174,4 @@ This project is open source and available for personal use.
 <p align="center">
   Made with ❤️ for fitness enthusiasts
 </p>
+ 

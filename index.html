@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FitFuel - Your personalized Indian diet planner for weight loss, weight gain, or maintaining a healthy lifestyle">
+    <title>FitFuel - Indian Diet Planner | Gym Edition</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏋️</text></svg>">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <div class="logo-icon">🏋️</div>
+            <h1>FitFuel</h1>
+        </div>
+        <p class="tagline">Your Personalized Indian Diet Planner</p>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+        <main class="main-content">
+            <!-- Form Section -->
+            <aside class="form-card">
+                <h2><span>📋</span> Your Details</h2>
+                <form id="dietForm">
+                    <!-- Age -->
+                    <div class="form-group">
+                        <label for="age">Age</label>
+                        <input 
+                            type="number" 
+                            id="age" 
+                            name="age" 
+                            placeholder="Enter your age (years)" 
+                            min="10" 
+                            max="100" 
+                            required
+                        >
+                    </div>
+
+                    <!-- Height -->
+                    <div class="form-group">
+                        <label for="height">Height (cm)</label>
+                        <input 
+                            type="number" 
+                            id="height" 
+                            name="height" 
+                            placeholder="Enter your height in cm" 
+                            min="100" 
+                            max="250" 
+                            required
+                        >
+                    </div>
+
+                    <!-- Weight -->
+                    <div class="form-group">
+                        <label for="weight">Weight (kg)</label>
+                        <input 
+                            type="number" 
+                            id="weight" 
+                            name="weight" 
+                            placeholder="Enter your weight in kg" 
+                            min="30" 
+                            max="300" 
+                            required
+                        >
+                    </div>
+
+                    <!-- Gender -->
+                    <div class="form-group">
+                        <label>Gender</label>
+                        <div class="radio-group">
+                            <div class="radio-option">
+                                <input type="radio" id="male" name="gender" value="male" required>
+                                <label for="male">
+                                    <span>👨</span> Male
+                                </label>
+                            </div>
+                            <div class="radio-option">
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">
+                                    <span>👩</span> Female
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Food Preference -->
+                    <div class="form-group">
+                        <label>Food Preference</label>
+                        <div class="radio-group">
+                            <div class="radio-option">
+                                <input type="radio" id="veg" name="foodPref" value="veg" required>
+                                <label for="veg">
+                                    <span>🥬</span> Veg
+                                </label>
+                            </div>
+                            <div class="radio-option">
+                                <input type="radio" id="nonveg" name="foodPref" value="nonveg">
+                                <label for="nonveg">
+                                    <span>🍗</span> Non-Veg
+                                </label>
+                            </div>
+                            <div class="radio-option">
+                                <input type="radio" id="both" name="foodPref" value="both">
+                                <label for="both">
+                                    <span>🍽️</span> Both
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Goal -->
+                    <div class="form-group">
+                        <label>Your Goal</label>
+                        <div class="goal-options">
+                            <div class="goal-option">
+                                <input type="radio" id="loss" name="goal" value="loss" required>
+                                <label for="loss">
+                                    <div class="goal-icon">📉</div>
+                                    <div class="goal-text">
+                                        <strong>Weight Loss</strong>
+                                        <small>Burn fat & get lean</small>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="goal-option">
+                                <input type="radio" id="maintain" name="goal" value="maintain">
+                                <label for="maintain">
+                                    <div class="goal-icon">⚖️</div>
+                                    <div class="goal-text">
+                                        <strong>Maintain Weight</strong>
+                                        <small>Stay fit & healthy</small>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="goal-option">
+                                <input type="radio" id="gain" name="goal" value="gain">
+                                <label for="gain">
+                                    <div class="goal-icon">📈</div>
+                                    <div class="goal-text">
+                                        <strong>Weight Gain</strong>
+                                        <small>Build muscle & bulk up</small>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Generate Button -->
+                    <button type="submit" class="generate-btn">
+                        <span class="icon">⚡</span>
+                        Generate Diet Plan
+                    </button>
+                </form>
+            </aside>
+
+            <!-- Results Section -->
+            <section id="results" class="results-section">
+                <div class="results-placeholder">
+                    <div class="placeholder-icon">🍽️</div>
+                    <div class="placeholder-text">
+                        <h3>Ready to Transform?</h3>
+                        <p>Fill in your details and click "Generate Diet Plan" to get your personalized Indian diet plan.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Print Button -->
+    <button id="printBtn" class="print-btn" title="Print Diet Plan">
+        🖨️
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Made with <span class="heart">❤️</span> for fitness enthusiasts | FitFuel © 2025</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>

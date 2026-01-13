@@ -1,0 +1,937 @@
+{
+  "weightLoss": {
+    "veg": {
+      "breakfast": [
+        {
+          "name": "Oats Upma",
+          "description": "Steel-cut oats cooked with vegetables, mustard seeds, and curry leaves",
+          "calories": 280,
+          "protein": "8g",
+          "carbs": "45g",
+          "fat": "6g",
+          "ingredients": ["Oats", "Mixed vegetables", "Mustard seeds", "Curry leaves", "Green chillies"]
+        },
+        {
+          "name": "Moong Dal Chilla",
+          "description": "Protein-rich savory pancakes made from moong dal batter",
+          "calories": 220,
+          "protein": "12g",
+          "carbs": "30g",
+          "fat": "5g",
+          "ingredients": ["Moong dal", "Onions", "Tomatoes", "Green chillies", "Coriander"]
+        },
+        {
+          "name": "Vegetable Poha",
+          "description": "Flattened rice with peanuts and vegetables",
+          "calories": 250,
+          "protein": "6g",
+          "carbs": "42g",
+          "fat": "7g",
+          "ingredients": ["Poha", "Peanuts", "Onions", "Potatoes", "Turmeric", "Curry leaves"]
+        },
+        {
+          "name": "Ragi Dosa with Chutney",
+          "description": "Finger millet dosa served with coconut chutney",
+          "calories": 200,
+          "protein": "7g",
+          "carbs": "35g",
+          "fat": "4g",
+          "ingredients": ["Ragi flour", "Rice flour", "Coconut", "Green chillies", "Coriander"]
+        }
+      ],
+      "lunch": [
+        {
+          "name": "Brown Rice with Dal & Sabzi",
+          "description": "Wholesome meal with brown rice, yellow dal, and mixed vegetable curry",
+          "calories": 420,
+          "protein": "15g",
+          "carbs": "65g",
+          "fat": "10g",
+          "ingredients": ["Brown rice", "Toor dal", "Mixed vegetables", "Spices", "Ghee"]
+        },
+        {
+          "name": "Quinoa Pulao",
+          "description": "Quinoa cooked with vegetables and Indian spices",
+          "calories": 350,
+          "protein": "12g",
+          "carbs": "50g",
+          "fat": "8g",
+          "ingredients": ["Quinoa", "Mixed vegetables", "Cumin", "Bay leaf", "Ghee"]
+        },
+        {
+          "name": "Rajma Chawal (Small Portion)",
+          "description": "Kidney beans curry with steamed rice",
+          "calories": 400,
+          "protein": "14g",
+          "carbs": "60g",
+          "fat": "9g",
+          "ingredients": ["Rajma", "Basmati rice", "Tomatoes", "Onions", "Ginger-garlic"]
+        },
+        {
+          "name": "Palak Paneer with Roti",
+          "description": "Spinach curry with cottage cheese and whole wheat roti",
+          "calories": 380,
+          "protein": "18g",
+          "carbs": "40g",
+          "fat": "14g",
+          "ingredients": ["Spinach", "Paneer", "Whole wheat flour", "Cream", "Spices"]
+        }
+      ],
+      "dinner": [
+        {
+          "name": "Vegetable Soup with Multigrain Bread",
+          "description": "Clear vegetable soup with a slice of multigrain bread",
+          "calories": 180,
+          "protein": "6g",
+          "carbs": "28g",
+          "fat": "4g",
+          "ingredients": ["Mixed vegetables", "Vegetable stock", "Multigrain bread", "Herbs"]
+        },
+        {
+          "name": "Grilled Paneer Tikka Salad",
+          "description": "Grilled paneer with fresh garden salad",
+          "calories": 280,
+          "protein": "20g",
+          "carbs": "15g",
+          "fat": "16g",
+          "ingredients": ["Paneer", "Bell peppers", "Lettuce", "Cucumber", "Tomatoes", "Yogurt marinade"]
+        },
+        {
+          "name": "Khichdi with Kadhi",
+          "description": "Light moong dal khichdi with yogurt-based kadhi",
+          "calories": 320,
+          "protein": "12g",
+          "carbs": "48g",
+          "fat": "8g",
+          "ingredients": ["Rice", "Moong dal", "Yogurt", "Besan", "Turmeric"]
+        },
+        {
+          "name": "Mixed Vegetable Daliya",
+          "description": "Broken wheat cooked with vegetables",
+          "calories": 250,
+          "protein": "8g",
+          "carbs": "45g",
+          "fat": "5g",
+          "ingredients": ["Daliya", "Mixed vegetables", "Cumin", "Green chillies"]
+        }
+      ],
+      "snacks": [
+        {
+          "name": "Roasted Chana",
+          "description": "Spiced roasted chickpeas",
+          "calories": 120,
+          "protein": "6g",
+          "carbs": "18g",
+          "fat": "3g"
+        },
+        {
+          "name": "Buttermilk (Chaas)",
+          "description": "Spiced yogurt drink",
+          "calories": 60,
+          "protein": "3g",
+          "carbs": "5g",
+          "fat": "2g"
+        },
+        {
+          "name": "Sprouts Chaat",
+          "description": "Mixed sprouts with onions and lemon",
+          "calories": 100,
+          "protein": "7g",
+          "carbs": "15g",
+          "fat": "1g"
+        },
+        {
+          "name": "Green Tea with Almonds",
+          "description": "Green tea with 5-6 almonds",
+          "calories": 80,
+          "protein": "3g",
+          "carbs": "3g",
+          "fat": "6g"
+        }
+      ]
+    },
+    "nonveg": {
+      "breakfast": [
+        {
+          "name": "Egg White Omelette",
+          "description": "Fluffy egg white omelette with vegetables",
+          "calories": 180,
+          "protein": "18g",
+          "carbs": "5g",
+          "fat": "8g",
+          "ingredients": ["Egg whites", "Onions", "Tomatoes", "Bell peppers", "Green chillies"]
+        },
+        {
+          "name": "Boiled Eggs with Toast",
+          "description": "Two boiled eggs with whole wheat toast",
+          "calories": 250,
+          "protein": "16g",
+          "carbs": "22g",
+          "fat": "10g",
+          "ingredients": ["Eggs", "Whole wheat bread", "Butter"]
+        },
+        {
+          "name": "Chicken Poha",
+          "description": "Flattened rice with shredded chicken",
+          "calories": 300,
+          "protein": "20g",
+          "carbs": "38g",
+          "fat": "7g",
+          "ingredients": ["Poha", "Chicken breast", "Onions", "Peanuts", "Turmeric"]
+        },
+        {
+          "name": "Egg Bhurji with Paratha",
+          "description": "Scrambled eggs with whole wheat paratha",
+          "calories": 320,
+          "protein": "18g",
+          "carbs": "30g",
+          "fat": "14g",
+          "ingredients": ["Eggs", "Whole wheat flour", "Onions", "Tomatoes", "Green chillies"]
+        }
+      ],
+      "lunch": [
+        {
+          "name": "Grilled Chicken with Brown Rice",
+          "description": "Lean grilled chicken breast with brown rice and vegetables",
+          "calories": 450,
+          "protein": "35g",
+          "carbs": "45g",
+          "fat": "12g",
+          "ingredients": ["Chicken breast", "Brown rice", "Vegetables", "Indian spices", "Olive oil"]
+        },
+        {
+          "name": "Fish Curry with Roti",
+          "description": "Light fish curry with whole wheat roti",
+          "calories": 380,
+          "protein": "30g",
+          "carbs": "35g",
+          "fat": "12g",
+          "ingredients": ["Fish", "Tomatoes", "Coconut milk", "Whole wheat flour", "Spices"]
+        },
+        {
+          "name": "Tandoori Chicken Salad",
+          "description": "Grilled tandoori chicken with fresh salad",
+          "calories": 320,
+          "protein": "32g",
+          "carbs": "12g",
+          "fat": "14g",
+          "ingredients": ["Chicken", "Yogurt marinade", "Lettuce", "Cucumber", "Tomatoes"]
+        },
+        {
+          "name": "Egg Curry with Quinoa",
+          "description": "Boiled eggs in light curry with quinoa",
+          "calories": 400,
+          "protein": "22g",
+          "carbs": "42g",
+          "fat": "14g",
+          "ingredients": ["Eggs", "Quinoa", "Tomatoes", "Onions", "Spices"]
+        }
+      ],
+      "dinner": [
+        {
+          "name": "Grilled Fish with Vegetables",
+          "description": "Grilled fish fillet with steamed vegetables",
+          "calories": 280,
+          "protein": "32g",
+          "carbs": "10g",
+          "fat": "12g",
+          "ingredients": ["Fish fillet", "Lemon", "Garlic", "Mixed vegetables", "Herbs"]
+        },
+        {
+          "name": "Chicken Soup",
+          "description": "Clear chicken soup with vegetables",
+          "calories": 200,
+          "protein": "22g",
+          "carbs": "8g",
+          "fat": "8g",
+          "ingredients": ["Chicken", "Vegetables", "Chicken stock", "Herbs", "Pepper"]
+        },
+        {
+          "name": "Egg Salad",
+          "description": "Boiled eggs with fresh vegetable salad",
+          "calories": 220,
+          "protein": "16g",
+          "carbs": "8g",
+          "fat": "14g",
+          "ingredients": ["Eggs", "Lettuce", "Cucumber", "Tomatoes", "Olive oil dressing"]
+        },
+        {
+          "name": "Chicken Tikka with Raita",
+          "description": "Grilled chicken tikka with cucumber raita",
+          "calories": 300,
+          "protein": "35g",
+          "carbs": "8g",
+          "fat": "14g",
+          "ingredients": ["Chicken", "Yogurt", "Cucumber", "Spices", "Mint"]
+        }
+      ],
+      "snacks": [
+        {
+          "name": "Boiled Egg Whites",
+          "description": "3 boiled egg whites",
+          "calories": 50,
+          "protein": "11g",
+          "carbs": "0g",
+          "fat": "0g"
+        },
+        {
+          "name": "Chicken Breast Strips",
+          "description": "Grilled chicken strips",
+          "calories": 120,
+          "protein": "22g",
+          "carbs": "0g",
+          "fat": "3g"
+        },
+        {
+          "name": "Fish Tikka",
+          "description": "Small portion of grilled fish tikka",
+          "calories": 100,
+          "protein": "18g",
+          "carbs": "2g",
+          "fat": "3g"
+        },
+        {
+          "name": "Egg Bhurji (Small)",
+          "description": "Scrambled eggs without oil",
+          "calories": 90,
+          "protein": "8g",
+          "carbs": "2g",
+          "fat": "5g"
+        }
+      ]
+    }
+  },
+  "maintain": {
+    "veg": {
+      "breakfast": [
+        {
+          "name": "Aloo Paratha with Curd",
+          "description": "Stuffed potato paratha with fresh yogurt",
+          "calories": 380,
+          "protein": "10g",
+          "carbs": "55g",
+          "fat": "14g",
+          "ingredients": ["Whole wheat flour", "Potatoes", "Butter", "Curd", "Pickle"]
+        },
+        {
+          "name": "Idli Sambar",
+          "description": "Steamed rice cakes with lentil soup",
+          "calories": 320,
+          "protein": "12g",
+          "carbs": "58g",
+          "fat": "5g",
+          "ingredients": ["Rice", "Urad dal", "Toor dal", "Vegetables", "Sambar powder"]
+        },
+        {
+          "name": "Paneer Paratha",
+          "description": "Cottage cheese stuffed paratha with butter",
+          "calories": 400,
+          "protein": "16g",
+          "carbs": "45g",
+          "fat": "18g",
+          "ingredients": ["Whole wheat flour", "Paneer", "Green chillies", "Butter"]
+        },
+        {
+          "name": "Masala Dosa",
+          "description": "Crispy dosa with potato filling and chutneys",
+          "calories": 350,
+          "protein": "8g",
+          "carbs": "52g",
+          "fat": "12g",
+          "ingredients": ["Rice", "Urad dal", "Potatoes", "Onions", "Coconut chutney"]
+        }
+      ],
+      "lunch": [
+        {
+          "name": "Dal Makhani with Jeera Rice",
+          "description": "Creamy black dal with cumin rice",
+          "calories": 520,
+          "protein": "18g",
+          "carbs": "70g",
+          "fat": "18g",
+          "ingredients": ["Black dal", "Kidney beans", "Basmati rice", "Cream", "Butter"]
+        },
+        {
+          "name": "Chole Bhature",
+          "description": "Spiced chickpeas with fried bread",
+          "calories": 600,
+          "protein": "16g",
+          "carbs": "75g",
+          "fat": "24g",
+          "ingredients": ["Chickpeas", "Maida", "Onions", "Tomatoes", "Spices"]
+        },
+        {
+          "name": "Veg Biryani",
+          "description": "Fragrant rice with mixed vegetables",
+          "calories": 480,
+          "protein": "12g",
+          "carbs": "68g",
+          "fat": "16g",
+          "ingredients": ["Basmati rice", "Mixed vegetables", "Saffron", "Ghee", "Biryani masala"]
+        },
+        {
+          "name": "Paneer Butter Masala with Naan",
+          "description": "Rich paneer curry with butter naan",
+          "calories": 550,
+          "protein": "22g",
+          "carbs": "55g",
+          "fat": "26g",
+          "ingredients": ["Paneer", "Tomatoes", "Cream", "Butter", "Naan"]
+        }
+      ],
+      "dinner": [
+        {
+          "name": "Roti with Sabzi and Dal",
+          "description": "Whole wheat roti with vegetable curry and lentils",
+          "calories": 420,
+          "protein": "14g",
+          "carbs": "60g",
+          "fat": "12g",
+          "ingredients": ["Whole wheat flour", "Mixed vegetables", "Dal", "Spices", "Ghee"]
+        },
+        {
+          "name": "Vegetable Pulao with Raita",
+          "description": "Fragrant vegetable rice with yogurt side",
+          "calories": 400,
+          "protein": "10g",
+          "carbs": "62g",
+          "fat": "12g",
+          "ingredients": ["Basmati rice", "Mixed vegetables", "Yogurt", "Cucumber", "Spices"]
+        },
+        {
+          "name": "Palak Paneer with Paratha",
+          "description": "Spinach curry with cottage cheese and paratha",
+          "calories": 480,
+          "protein": "20g",
+          "carbs": "45g",
+          "fat": "24g",
+          "ingredients": ["Spinach", "Paneer", "Whole wheat flour", "Cream", "Spices"]
+        },
+        {
+          "name": "Kadhi Chawal",
+          "description": "Yogurt curry with steamed rice",
+          "calories": 380,
+          "protein": "12g",
+          "carbs": "58g",
+          "fat": "10g",
+          "ingredients": ["Yogurt", "Besan", "Rice", "Onions", "Spices"]
+        }
+      ],
+      "snacks": [
+        {
+          "name": "Samosa",
+          "description": "Fried pastry with potato filling",
+          "calories": 180,
+          "protein": "4g",
+          "carbs": "22g",
+          "fat": "9g"
+        },
+        {
+          "name": "Fruit Chaat",
+          "description": "Mixed fruits with chaat masala",
+          "calories": 120,
+          "protein": "2g",
+          "carbs": "28g",
+          "fat": "1g"
+        },
+        {
+          "name": "Paneer Tikka",
+          "description": "Grilled cottage cheese cubes",
+          "calories": 200,
+          "protein": "14g",
+          "carbs": "8g",
+          "fat": "14g"
+        },
+        {
+          "name": "Lassi",
+          "description": "Sweet yogurt drink",
+          "calories": 150,
+          "protein": "5g",
+          "carbs": "22g",
+          "fat": "5g"
+        }
+      ]
+    },
+    "nonveg": {
+      "breakfast": [
+        {
+          "name": "Keema Paratha",
+          "description": "Minced meat stuffed paratha",
+          "calories": 420,
+          "protein": "22g",
+          "carbs": "42g",
+          "fat": "18g",
+          "ingredients": ["Whole wheat flour", "Minced meat", "Onions", "Spices", "Butter"]
+        },
+        {
+          "name": "Egg Curry with Paratha",
+          "description": "Boiled eggs in curry with whole wheat paratha",
+          "calories": 450,
+          "protein": "20g",
+          "carbs": "45g",
+          "fat": "20g",
+          "ingredients": ["Eggs", "Whole wheat flour", "Tomatoes", "Onions", "Spices"]
+        },
+        {
+          "name": "Chicken Sandwich",
+          "description": "Grilled chicken sandwich with vegetables",
+          "calories": 380,
+          "protein": "28g",
+          "carbs": "35g",
+          "fat": "14g",
+          "ingredients": ["Bread", "Chicken", "Lettuce", "Tomatoes", "Mayo"]
+        },
+        {
+          "name": "Omelette with Toast",
+          "description": "Masala omelette with buttered toast",
+          "calories": 350,
+          "protein": "18g",
+          "carbs": "28g",
+          "fat": "18g",
+          "ingredients": ["Eggs", "Bread", "Butter", "Onions", "Green chillies"]
+        }
+      ],
+      "lunch": [
+        {
+          "name": "Chicken Biryani",
+          "description": "Fragrant rice with spiced chicken",
+          "calories": 580,
+          "protein": "32g",
+          "carbs": "62g",
+          "fat": "22g",
+          "ingredients": ["Basmati rice", "Chicken", "Saffron", "Ghee", "Biryani masala"]
+        },
+        {
+          "name": "Butter Chicken with Naan",
+          "description": "Creamy chicken curry with butter naan",
+          "calories": 620,
+          "protein": "35g",
+          "carbs": "52g",
+          "fat": "28g",
+          "ingredients": ["Chicken", "Tomatoes", "Cream", "Butter", "Naan"]
+        },
+        {
+          "name": "Fish Curry with Rice",
+          "description": "Coastal style fish curry with steamed rice",
+          "calories": 480,
+          "protein": "30g",
+          "carbs": "55g",
+          "fat": "14g",
+          "ingredients": ["Fish", "Rice", "Coconut", "Tamarind", "Spices"]
+        },
+        {
+          "name": "Mutton Curry with Roti",
+          "description": "Slow-cooked mutton curry with whole wheat roti",
+          "calories": 550,
+          "protein": "35g",
+          "carbs": "42g",
+          "fat": "26g",
+          "ingredients": ["Mutton", "Whole wheat flour", "Onions", "Tomatoes", "Spices"]
+        }
+      ],
+      "dinner": [
+        {
+          "name": "Tandoori Chicken with Salad",
+          "description": "Grilled marinated chicken with fresh salad",
+          "calories": 380,
+          "protein": "40g",
+          "carbs": "12g",
+          "fat": "18g",
+          "ingredients": ["Chicken", "Yogurt marinade", "Salad vegetables", "Lemon", "Spices"]
+        },
+        {
+          "name": "Chicken Curry with Roti",
+          "description": "Home-style chicken curry with whole wheat roti",
+          "calories": 450,
+          "protein": "32g",
+          "carbs": "38g",
+          "fat": "18g",
+          "ingredients": ["Chicken", "Whole wheat flour", "Tomatoes", "Onions", "Spices"]
+        },
+        {
+          "name": "Egg Fried Rice",
+          "description": "Fried rice with eggs and vegetables",
+          "calories": 420,
+          "protein": "16g",
+          "carbs": "55g",
+          "fat": "14g",
+          "ingredients": ["Rice", "Eggs", "Vegetables", "Soy sauce", "Spring onions"]
+        },
+        {
+          "name": "Prawn Curry with Appam",
+          "description": "Coastal prawn curry with soft appam",
+          "calories": 400,
+          "protein": "28g",
+          "carbs": "42g",
+          "fat": "14g",
+          "ingredients": ["Prawns", "Rice flour", "Coconut milk", "Spices", "Curry leaves"]
+        }
+      ],
+      "snacks": [
+        {
+          "name": "Chicken Tikka",
+          "description": "Grilled spiced chicken pieces",
+          "calories": 180,
+          "protein": "25g",
+          "carbs": "4g",
+          "fat": "8g"
+        },
+        {
+          "name": "Egg Roll",
+          "description": "Egg wrapped in paratha",
+          "calories": 250,
+          "protein": "12g",
+          "carbs": "25g",
+          "fat": "12g"
+        },
+        {
+          "name": "Fish Fry",
+          "description": "Crispy fried fish pieces",
+          "calories": 200,
+          "protein": "22g",
+          "carbs": "8g",
+          "fat": "10g"
+        },
+        {
+          "name": "Seekh Kebab",
+          "description": "Grilled minced meat skewers",
+          "calories": 180,
+          "protein": "20g",
+          "carbs": "5g",
+          "fat": "10g"
+        }
+      ]
+    }
+  },
+  "weightGain": {
+    "veg": {
+      "breakfast": [
+        {
+          "name": "Paneer Paratha with Butter",
+          "description": "Rich paneer stuffed paratha with extra butter and curd",
+          "calories": 550,
+          "protein": "22g",
+          "carbs": "55g",
+          "fat": "28g",
+          "ingredients": ["Whole wheat flour", "Paneer", "Butter", "Curd", "Pickle"]
+        },
+        {
+          "name": "Chole Bhature",
+          "description": "Spiced chickpeas with deep-fried bread and lassi",
+          "calories": 680,
+          "protein": "18g",
+          "carbs": "80g",
+          "fat": "32g",
+          "ingredients": ["Chickpeas", "Maida", "Yogurt", "Sugar", "Spices"]
+        },
+        {
+          "name": "Banana Shake with Dry Fruits",
+          "description": "Thick banana milkshake with almonds and dates",
+          "calories": 450,
+          "protein": "14g",
+          "carbs": "65g",
+          "fat": "16g",
+          "ingredients": ["Bananas", "Milk", "Almonds", "Dates", "Honey"]
+        },
+        {
+          "name": "Stuffed Kulcha with Chana",
+          "description": "Stuffed bread with spiced chickpeas",
+          "calories": 580,
+          "protein": "16g",
+          "carbs": "72g",
+          "fat": "24g",
+          "ingredients": ["Maida", "Paneer stuffing", "Chickpeas", "Butter", "Spices"]
+        }
+      ],
+      "lunch": [
+        {
+          "name": "Shahi Paneer with Butter Naan",
+          "description": "Rich creamy paneer curry with butter naan",
+          "calories": 720,
+          "protein": "28g",
+          "carbs": "65g",
+          "fat": "38g",
+          "ingredients": ["Paneer", "Cashew cream", "Butter", "Naan", "Saffron"]
+        },
+        {
+          "name": "Dal Makhani with Jeera Rice & Raita",
+          "description": "Creamy black dal with rice and yogurt",
+          "calories": 680,
+          "protein": "22g",
+          "carbs": "85g",
+          "fat": "26g",
+          "ingredients": ["Black dal", "Rice", "Cream", "Butter", "Yogurt"]
+        },
+        {
+          "name": "Paneer Biryani with Mirchi Ka Salan",
+          "description": "Rich paneer biryani with spicy curry",
+          "calories": 650,
+          "protein": "24g",
+          "carbs": "75g",
+          "fat": "28g",
+          "ingredients": ["Basmati rice", "Paneer", "Saffron", "Ghee", "Green chillies"]
+        },
+        {
+          "name": "Malai Kofta with Paratha",
+          "description": "Fried dumplings in creamy gravy with paratha",
+          "calories": 700,
+          "protein": "20g",
+          "carbs": "68g",
+          "fat": "40g",
+          "ingredients": ["Paneer", "Potatoes", "Cream", "Whole wheat flour", "Cashews"]
+        }
+      ],
+      "dinner": [
+        {
+          "name": "Paneer Tikka Masala with Garlic Naan",
+          "description": "Grilled paneer in rich curry with garlic naan",
+          "calories": 620,
+          "protein": "26g",
+          "carbs": "58g",
+          "fat": "32g",
+          "ingredients": ["Paneer", "Bell peppers", "Cream", "Butter", "Garlic naan"]
+        },
+        {
+          "name": "Veg Biryani with Raita & Salan",
+          "description": "Fragrant vegetable biryani with sides",
+          "calories": 580,
+          "protein": "16g",
+          "carbs": "78g",
+          "fat": "22g",
+          "ingredients": ["Basmati rice", "Vegetables", "Ghee", "Yogurt", "Spices"]
+        },
+        {
+          "name": "Kadhai Paneer with Butter Roti",
+          "description": "Spiced paneer with butter-laden rotis",
+          "calories": 550,
+          "protein": "24g",
+          "carbs": "48g",
+          "fat": "30g",
+          "ingredients": ["Paneer", "Bell peppers", "Whole wheat flour", "Butter", "Spices"]
+        },
+        {
+          "name": "Matar Paneer with Rice",
+          "description": "Peas and paneer curry with ghee rice",
+          "calories": 580,
+          "protein": "22g",
+          "carbs": "62g",
+          "fat": "26g",
+          "ingredients": ["Paneer", "Peas", "Basmati rice", "Ghee", "Cream"]
+        }
+      ],
+      "snacks": [
+        {
+          "name": "Kesar Pista Lassi",
+          "description": "Rich saffron pistachio yogurt drink",
+          "calories": 280,
+          "protein": "10g",
+          "carbs": "38g",
+          "fat": "10g"
+        },
+        {
+          "name": "Mixed Dry Fruit Ladoo",
+          "description": "Energy balls with nuts and dates",
+          "calories": 220,
+          "protein": "6g",
+          "carbs": "28g",
+          "fat": "12g"
+        },
+        {
+          "name": "Paneer Pakora",
+          "description": "Deep-fried paneer fritters",
+          "calories": 300,
+          "protein": "14g",
+          "carbs": "18g",
+          "fat": "20g"
+        },
+        {
+          "name": "Banana with Peanut Butter",
+          "description": "Banana slices with peanut butter",
+          "calories": 280,
+          "protein": "9g",
+          "carbs": "35g",
+          "fat": "14g"
+        }
+      ]
+    },
+    "nonveg": {
+      "breakfast": [
+        {
+          "name": "Keema Paratha with Butter",
+          "description": "Minced meat stuffed paratha with extra butter",
+          "calories": 580,
+          "protein": "28g",
+          "carbs": "48g",
+          "fat": "32g",
+          "ingredients": ["Whole wheat flour", "Minced meat", "Butter", "Onions", "Spices"]
+        },
+        {
+          "name": "Chicken Omelette with Cheese Toast",
+          "description": "Loaded chicken omelette with cheese toast",
+          "calories": 520,
+          "protein": "35g",
+          "carbs": "32g",
+          "fat": "30g",
+          "ingredients": ["Eggs", "Chicken", "Cheese", "Bread", "Butter"]
+        },
+        {
+          "name": "Mutton Keema with Pav",
+          "description": "Spiced minced mutton with buttered bread rolls",
+          "calories": 600,
+          "protein": "32g",
+          "carbs": "45g",
+          "fat": "32g",
+          "ingredients": ["Minced mutton", "Pav", "Butter", "Onions", "Spices"]
+        },
+        {
+          "name": "Egg Bhurji with Butter Paratha",
+          "description": "Rich scrambled eggs with butter paratha",
+          "calories": 550,
+          "protein": "24g",
+          "carbs": "42g",
+          "fat": "32g",
+          "ingredients": ["Eggs", "Whole wheat flour", "Butter", "Onions", "Spices"]
+        }
+      ],
+      "lunch": [
+        {
+          "name": "Hyderabadi Mutton Biryani",
+          "description": "Rich layered mutton biryani with raita",
+          "calories": 780,
+          "protein": "42g",
+          "carbs": "72g",
+          "fat": "36g",
+          "ingredients": ["Basmati rice", "Mutton", "Ghee", "Saffron", "Yogurt"]
+        },
+        {
+          "name": "Butter Chicken with Butter Naan",
+          "description": "Creamy butter chicken with butter naan",
+          "calories": 750,
+          "protein": "40g",
+          "carbs": "58g",
+          "fat": "38g",
+          "ingredients": ["Chicken", "Butter", "Cream", "Tomatoes", "Naan"]
+        },
+        {
+          "name": "Fish Thali",
+          "description": "Complete fish meal with rice, curry, and sides",
+          "calories": 680,
+          "protein": "38g",
+          "carbs": "68g",
+          "fat": "28g",
+          "ingredients": ["Fish", "Rice", "Dal", "Vegetables", "Coconut"]
+        },
+        {
+          "name": "Chicken Korma with Pulao",
+          "description": "Rich chicken curry with fragrant rice",
+          "calories": 720,
+          "protein": "38g",
+          "carbs": "65g",
+          "fat": "34g",
+          "ingredients": ["Chicken", "Basmati rice", "Cashews", "Cream", "Spices"]
+        }
+      ],
+      "dinner": [
+        {
+          "name": "Rogan Josh with Rice",
+          "description": "Aromatic lamb curry with steamed rice",
+          "calories": 680,
+          "protein": "38g",
+          "carbs": "58g",
+          "fat": "32g",
+          "ingredients": ["Lamb", "Basmati rice", "Yogurt", "Ghee", "Kashmiri spices"]
+        },
+        {
+          "name": "Chicken Tikka Masala with Naan",
+          "description": "Creamy chicken tikka with butter naan",
+          "calories": 650,
+          "protein": "38g",
+          "carbs": "52g",
+          "fat": "30g",
+          "ingredients": ["Chicken", "Cream", "Butter", "Naan", "Spices"]
+        },
+        {
+          "name": "Prawn Biryani",
+          "description": "Fragrant prawn biryani with raita",
+          "calories": 620,
+          "protein": "35g",
+          "carbs": "68g",
+          "fat": "24g",
+          "ingredients": ["Prawns", "Basmati rice", "Ghee", "Saffron", "Yogurt"]
+        },
+        {
+          "name": "Keema Matar with Butter Roti",
+          "description": "Minced meat with peas and butter rotis",
+          "calories": 600,
+          "protein": "35g",
+          "carbs": "48g",
+          "fat": "32g",
+          "ingredients": ["Minced meat", "Peas", "Whole wheat flour", "Butter", "Spices"]
+        }
+      ],
+      "snacks": [
+        {
+          "name": "Chicken Malai Tikka",
+          "description": "Creamy grilled chicken pieces",
+          "calories": 280,
+          "protein": "30g",
+          "carbs": "6g",
+          "fat": "16g"
+        },
+        {
+          "name": "Mutton Seekh Kebab",
+          "description": "Grilled minced meat skewers with mint chutney",
+          "calories": 300,
+          "protein": "28g",
+          "carbs": "8g",
+          "fat": "18g"
+        },
+        {
+          "name": "Egg & Chicken Roll",
+          "description": "Loaded egg and chicken roll",
+          "calories": 380,
+          "protein": "26g",
+          "carbs": "32g",
+          "fat": "18g"
+        },
+        {
+          "name": "Fish Pakora",
+          "description": "Crispy fried fish fritters",
+          "calories": 260,
+          "protein": "22g",
+          "carbs": "14g",
+          "fat": "14g"
+        }
+      ]
+    }
+  },
+  "tips": {
+    "weightLoss": [
+      "Drink at least 3-4 liters of water daily",
+      "Avoid sugary drinks and processed foods",
+      "Eat slowly and mindfully",
+      "Include fiber-rich foods in every meal",
+      "Avoid eating 2-3 hours before bedtime",
+      "Replace refined grains with whole grains",
+      "Include protein in every meal to stay full longer"
+    ],
+    "maintain": [
+      "Maintain consistent meal timings",
+      "Balance your macronutrients",
+      "Stay active with regular exercise",
+      "Listen to your hunger cues",
+      "Include variety in your diet",
+      "Limit processed and packaged foods",
+      "Get adequate sleep for better metabolism"
+    ],
+    "weightGain": [
+      "Eat more frequently - 5-6 meals a day",
+      "Include calorie-dense healthy foods",
+      "Add ghee, butter, and healthy fats to meals",
+      "Drink milk, lassi, or protein shakes between meals",
+      "Include dry fruits and nuts as snacks",
+      "Don't skip meals",
+      "Focus on strength training to build muscle mass"
+    ]
+  }
+}
